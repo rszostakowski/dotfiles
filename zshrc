@@ -64,6 +64,13 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+# add another config files
+source ~/dotfiles/bash/aliases
+source ~/dotfiles/bash/config
+source ~/dotfiles/bash/env
+source ~/dotfiles/bash/functions
+
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

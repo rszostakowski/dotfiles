@@ -1,1 +1,13 @@
+# Finder
+alias o="open ."
+
+#Monitoring
 alias tu='top -o cpu' # process cpu
+
+#git 
+alias gs='git status'
+alias gb='git branch'
+
+#reload
+alias reload='source ~/.zshrc'
+
