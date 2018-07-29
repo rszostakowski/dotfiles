@@ -1,2 +1,2 @@
-# dotfiles
-my dotfiles config
+# Create a symbolic link for zshrc
+ln -sf ~/dotfiles/.zshrc ~/.zshrc
