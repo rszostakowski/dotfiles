@@ -18,6 +18,9 @@ alias tu='top -o cpu' # process cpu
 alias gs='git status'
 alias gb='git branch'
 alias gdh='git diff HEAD'
+alias gaa='git add .'
+alias ga='git add '
+alias gcm='git commit -m '
 
 #reload
 alias reload='source ~/.zshrc'
