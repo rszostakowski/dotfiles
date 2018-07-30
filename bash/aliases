@@ -18,9 +18,26 @@ alias tu='top -o cpu' # process cpu
 alias gs='git status'
 alias gb='git branch'
 alias gdh='git diff HEAD'
+
 alias gaa='git add .'
 alias ga='git add $1'
-alias gcm='git commit -m \"$1\"'
+
+alias gc='git commit'
+alias gca='git commit --amend --no-edit'
+
+alias gst='git stash'
+alias gsp='git stash pop'
+
+alias gnb='git nb' # new branch aka checkout -b
+
+alias gls='git log --graph --decorate --pretty=oneline --abbrev-commit'
+alias glg='git log --graph --oneline --decorate --all'
+alias gld='git log --pretty=format:"%h %ad %s" --date=short --all'
+
+alias gpl='git pull'
+alias gps='git push'
+
+
 
 #reload
 alias reload='source ~/.zshrc'
