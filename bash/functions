@@ -16,7 +16,7 @@ function loadZshBySystem(){
 
 	if [ ${machine} =  "Linux" ]
 	then
-		export ZSH=/home/${whoami}/.oh-my-zsh
+		export ZSH=/home/robert/.oh-my-zsh
 	elif [ ${machine} = "Mac" ]
 	then
 		export ZSH=/Users/szostakowski/.oh-my-zsh

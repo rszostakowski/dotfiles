@@ -19,8 +19,8 @@ alias gs='git status'
 alias gb='git branch'
 alias gdh='git diff HEAD'
 alias gaa='git add .'
-alias ga='git add '
-alias gcm='git commit -m '
+alias ga='git add $1'
+alias gcm='git commit -m \"$1\"'
 
 #reload
 alias reload='source ~/.zshrc'
