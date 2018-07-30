@@ -1,8 +1,14 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
-  export ZSH="/home/robert/.oh-my-zsh"
+# add another config files from my personal repo
+source ~/dotfiles/bash/aliases
+source ~/dotfiles/bash/config
+source ~/dotfiles/bash/env
+source ~/dotfiles/bash/functions
+
+# Path to your oh-my-zsh installation by calling a function.
+loadZshBySystem
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -63,12 +69,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
-# add another config files
-source ~/dotfiles/bash/aliases
-source ~/dotfiles/bash/config
-source ~/dotfiles/bash/env
-source ~/dotfiles/bash/functions
 
 
 # User configuration
