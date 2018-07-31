@@ -37,6 +37,10 @@ alias gld='git log --pretty=format:"%h %ad %s" --date=short --all'
 alias gpl='git pull'
 alias gps='git push'
 
+alias gc2='git diff HEAD~1..HEAD' # compare last commit with the previous
+alias grm='git rm $1'
+alias grh='git reset --hard'
+alias grlc='git reset --hard HEAD~1' # delete last commit
 
 
 #reload
