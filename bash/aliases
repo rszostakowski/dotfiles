@@ -17,31 +17,38 @@ alias tu='top -o cpu' # process cpu
 #git 
 alias gs='git status'
 alias gb='git branch'
-alias gdh='git diff HEAD'
+alias gnb='git nb' # new branch aka checkout -b
 
+#git diff 
+alias gdh='git diff HEAD'
+alias gds='git diff --cached'
+alias gd2c='git diff HEAD~1..HEAD' # compare last commit with the previous
+
+#git add
 alias gaa='git add .'
 alias ga='git add $1'
 
+#git commit
 alias gc='git commit'
 alias gca='git commit --amend --no-edit'
 
+#git stash
 alias gst='git stash'
 alias gsp='git stash pop'
 
-alias gnb='git nb' # new branch aka checkout -b
-
+#git tree
 alias gls='git log --graph --decorate --pretty=oneline --abbrev-commit'
 alias glg='git log --graph --oneline --decorate --all'
 alias gld='git log --pretty=format:"%h %ad %s" --date=short --all'
 
+#git pull & push
 alias gpl='git pull'
 alias gps='git push'
 
-alias gc2='git diff HEAD~1..HEAD' # compare last commit with the previous
+# git remove & reset
 alias grm='git rm $1'
 alias grh='git reset --hard'
 alias grlc='git reset --hard HEAD~1' # delete last commit
-
 
 #reload
 alias reload='source ~/.zshrc'
