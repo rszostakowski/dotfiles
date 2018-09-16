@@ -3,8 +3,7 @@
 
 # add another config files from my personal repo
 source ~/dotfiles/bash/aliases
-source ~/dotfiles/bash/config
-source ~/dotfiles/bash/env
+source ~/dotfiles/bash/global-env
 source ~/dotfiles/bash/functions
 
 # Path to your oh-my-zsh installation by calling a function.

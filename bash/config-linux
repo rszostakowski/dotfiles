@@ -1,0 +1,5 @@
+export ZSH=/home/robert/.oh-my-zsh
+#adds go to PATH
+export PATH=$PATH:/usr/local/go/bin
+#maps capslock to ESC
+setxkbmap -option caps:escape

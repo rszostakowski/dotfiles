@@ -16,14 +16,10 @@ function loadZshBySystem(){
 
 	if [ ${machine} =  "Linux" ]
 	then
-		export ZSH=/home/robert/.oh-my-zsh
+		source ~/dotfiles/bash/config-linux
 	elif [ ${machine} = "Mac" ]
 	then
-		export ZSH=/Users/szostakowski/.oh-my-zsh
-		#adds go to PATH
-		export PATH=$PATH:/usr/local/go/bin
-		#maps capslock to ESC
-		setxkbmap -option caps:escape
+		source ~/dotfiles/bash/config-mac
 	else
 		echo Error checking the system
 	fi
