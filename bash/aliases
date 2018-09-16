@@ -61,5 +61,6 @@ alias grlc='git reset --hard HEAD~1' # delete last commit
 #reload
 alias reload='source ~/.zshrc'
 
-
+#phdproject
+alias gtphd='cd /home/robert/Dane/phdproject/TimeSeriesForecasting'
 
