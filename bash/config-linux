@@ -3,3 +3,6 @@ export ZSH=/home/robert/.oh-my-zsh
 export PATH=$PATH:/usr/local/go/bin
 #maps capslock to ESC
 setxkbmap -option caps:escape
+#sets GOPATH variable
+export GOPATH=$HOME/go
+export PATH=$PATH:$HOME/go/bin
