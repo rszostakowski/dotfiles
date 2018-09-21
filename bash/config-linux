@@ -6,3 +6,6 @@ setxkbmap -option caps:escape
 #sets GOPATH variable
 export GOPATH=$HOME/go
 export PATH=$PATH:$HOME/go/bin
+
+#Aliases for hackerrank:
+alias gth='cd /home/robert/dev/hackerrank' 
