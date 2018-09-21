@@ -6,6 +6,9 @@ source ~/dotfiles/bash/aliases
 source ~/dotfiles/bash/global-env
 source ~/dotfiles/bash/functions
 
+# adding user apps
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+
 # Path to your oh-my-zsh installation by calling a function.
 loadZshBySystem
 

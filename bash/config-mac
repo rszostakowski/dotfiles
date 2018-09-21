@@ -1,1 +1,6 @@
 export ZSH=/Users/szostakowski/.oh-my-zsh
+
+#Aliases for BLUE project
+alias gtb="cd $BLUE"
+alias gtbvs="cd $BLUE/k8s-view-svc"
+alias gtbkc="cd $BLUE/kafka-clients" 
